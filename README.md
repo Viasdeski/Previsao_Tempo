@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+# Previsão do Temppo
+=======
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Weather App é uma aplicação web simples que permite que você verifique a previsão do tempo atual para uma cidade. A aplicação utiliza a API do [WeatherAPI](https://www.weatherapi.com/) para obter as informações do tempo.
 
-## Available Scripts
+## Funcionamento
+------------
 
-In the project directory, you can run:
+Ao abrir a aplicação, você verá um campo de entrada onde poderá digitar o nome da cidade e do estado que deseja consultar a previsão do tempo. Após digitar o nome da cidade e do estado, clique no botão "Pesquisar" para buscar as informações do tempo.
 
-### `npm start`
+As informações exibidas incluem:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Ícone da condição do tempo
+* Nome da cidade e do estado
+* Temperatura atual em graus Celsius
+* Sensação térmica em graus Celsius
+* Condição do tempo (por exemplo, ensolarado, nublado, chuvoso)
+* Velocidade do vento em km/h
+* Data e hora da última atualização das informações do tempo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Testar
+-----------
 
-### `npm test`
+Para testar a Aplicação, siga estas etapas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório em sua máquina local usando o comando `git clone https://github.com/seu-usuario/weather-app.git`.
+2. Navegue até o diretório do projeto usando o comando `cd previsao-do-tempo`.
+3. Instale as dependências do projeto executando o comando `npm install`.
+4. Lembre de adicionar no arquivo `App.js` em `const key = "SUA_CHAVE_AQUI"` a sua chave cadastrada no WeatherAPI.
+5. Inicie a aplicação executando o comando `npm start`.
+6. Abra a aplicação em seu navegador, digite o nome de uma cidade e seu estado no campo de entrada e clique no botão "Pesquisar" para ver as informações do tempo.
 
-### `npm run build`
+## Observações
+-----------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Busque pesquisar a cidade digitando seu nome e seu estado para um retorno mais exato.
+* A aplicação utiliza o formato de data "dd-mm-yyyy HH:mm" para exibir a data e hora da última atualização das informações do tempo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias Utilizadas
+----------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* React
+* Axios
+* Bootstrap
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Previsao_Tempo
+## Licença
+-------
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
